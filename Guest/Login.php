@@ -45,6 +45,9 @@ $message="";
 					$_SESSION["orgname"]=$dataOrganization["organization_name"];
 					header("location:../Organizers/HomeOrgPage.php");
 				}
+				else if{
+					"Hi, elson"
+				}
 				else
 				{
 					
