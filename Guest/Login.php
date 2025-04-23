@@ -45,6 +45,10 @@ $message="";
 					$_SESSION["orgname"]=$dataOrganization["organization_name"];
 					header("location:../Organizers/HomeOrgPage.php");
 				}
+				else if
+				{
+					"Hi, I am Eldhose"
+				}
 				else
 				{
 					
@@ -121,6 +125,7 @@ $message="";
   <script src="../Assets/Templates/Login/js/popper.js"></script>
   <script src="../Assets/Templates/Login/js/bootstrap.min.js"></script>
   <script src="../Assets/Templates/Login/js/main.js"></script>
+		
 
 	</body>
 </html>
