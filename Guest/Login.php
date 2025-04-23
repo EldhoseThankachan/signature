@@ -33,18 +33,6 @@ $message="";
 					$_SESSION["uname"]=$dataUser["user_name"];
 					header("location:../Users/HomeUPage.php");
 				}
-				else if($dataOrganization=$rowOrganization->fetch_assoc())
-				{
-					$_SESSION["orgid"]=$dataOrganization["organization_id"];
-					$_SESSION["orgname"]=$dataOrganization["organization_name"];
-					header("location:../Organizers/HomeOrgPage.php");
-				}
-				else if($dataOrganization=$rowOrganization->fetch_assoc())
-				{
-					$_SESSION["orgid"]=$dataOrganization["organization_id"];
-					$_SESSION["orgname"]=$dataOrganization["organization_name"];
-					header("location:../Organizers/HomeOrgPage.php");
-				}
 				else
 				{
 					
